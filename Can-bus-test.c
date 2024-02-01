@@ -41,6 +41,7 @@ int main() {
     frame.data[6] = 0x07;
     frame.data[7] = 0x08;
 
+   
     if (write(s, &frame, sizeof(frame)) != sizeof(frame)) {
         perror("Write");
         return 1;
