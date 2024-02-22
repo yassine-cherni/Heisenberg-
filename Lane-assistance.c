@@ -10,7 +10,7 @@ int main() {
     }
 
     while (true) {
-        cv::Mat frame;
+        cv::Mat fra;
         cap >> frame;
 
         if (frame.empty()) {
