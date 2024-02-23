@@ -1,5 +1,5 @@
 import rclpy
-from rclpy.node import Nod
+from rclpy.node import Node
 import paho.mqtt.client as mqtt
 
 class AutonomousRobotNode(Node):
