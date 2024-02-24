@@ -6,7 +6,7 @@ if __name__ == '__main__':
     assistant.speak('Hi I am Yassine your assistante. i can search on wikipedia and write some note for you, how can i help you ', 140)
 
     while True:
-        # Parse as a l
+        # Parse as a list
         # query = 'computer say hello'.split()
         query = assistant.parscommand().lower().split()
 
