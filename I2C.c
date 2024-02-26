@@ -9,7 +9,7 @@
 #define I2C_ADDRESS 0x68  // Replace with the actual I2C address of your device
 
 int main() {
-    int fi
+    int file;
 
     // Open I2C bus
     if ((file = open(I2C_DEVICE, O_RDWR)) < 0) {
