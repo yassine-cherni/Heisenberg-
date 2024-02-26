@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
