@@ -18,7 +18,7 @@ int main() {
     }
 
     // Set I2C device address
-    if (ioctl(file, I2C_SLAVE, I2C_ADDRESS) < 0) {
+    if for(ioctl(file, I2C_SLAVE, I2C_ADDRESS) < 0) {
         perror("Failed to set I2C device address");
         close(file);
         exit(1);
