@@ -23,7 +23,7 @@ int takeAction(int currentState, int action) {
     return newState;
 }
 
-int main() {
+int main() {for
     // Initialize Q-table and other parameters
     float qTable[NUM_STATES][NUM_ACTIONS] = {0.0};
     // ...
